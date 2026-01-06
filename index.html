@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My AI Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>My Chatbot</h1>
+        </header>
+
+        <div id="chat-box" class="chat-box">
+            <div class="message user-message">User Message</div>
+            <div class="message bot-message">Bot Message</div>
+        </div>
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder = "Enter message"/>
+            <button id="send-btn" type="button">Submit</button>
+        </div>
+    </div>
+
+<!--  leaving the link to the JS at the end of the body tag to improve page load time
+ and to ensure content loads first. If script needs to run first, relink this in the head  -->
+  <script type ="module" src="script.js"></script>
+</body>
+
+</html>
+
